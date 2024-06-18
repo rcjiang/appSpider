@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "test": "node test.js",
+    "avd-list": "emulator -list-avds",
+    "avd": "emulator -avd Pixel_3a_API_34"
+  },
+  "devDependencies": {
+    "webdriverio": "^8.39.0"
+  }
+}

@@ -24,7 +24,20 @@
    [Java JDK下载地址1](https://jdk.java.net/)  
    [Java JDK下载地址2](https://adoptium.net/en-GB/temurin/releases/)
 
-3. 安装Appium驱动器
+3. 创建模拟器
+4. 启动模拟器
+   ```
+   # 查看模拟器列表
+   emulator -list-avds
+   emulator -avd <name>
+   ```
+
+5. 安装Appium驱动器
    ```sh
    appium driver install uiautomator2
+   ```
+
+## 安装客户端
+   ```sh
+   npm i --save-dev webdriverio
    ```
