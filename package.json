@@ -1,8 +1,12 @@
 {
+  "type": "module",
   "scripts": {
-    "test": "node test.js",
+    "start": "node ./dist/index.js",
+    "test": "tsc & node ./dist/index.js",
+    "serve": "appium",
     "avd-list": "emulator -list-avds",
-    "avd": "emulator -avd Pixel_3a_API_34"
+    "avd": "emulator -avd Pixel_3a_API_34",
+    "build": "tsc"
   },
   "devDependencies": {
     "webdriverio": "^8.39.0"

@@ -4,8 +4,9 @@ const capabilities = {
   platformName: 'Android',
   'appium:automationName': 'UiAutomator2',
   'appium:deviceName': 'Android',
-  'appium:appPackage': 'com.android.settings',
-  'appium:appActivity': '.Settings',
+  'appium:appPackage': 'com.ss.android.ugc.aweme',
+  'appium:appActivity': 'com.ss.android.ugc.aweme.splash.SplashActivity',
+  'appium:noReset': 'true',
 };
 
 const wdOpts = {
