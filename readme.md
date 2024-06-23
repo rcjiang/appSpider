@@ -74,4 +74,15 @@ adb shell pm list packages | grep google
 # step1: 启动app
 # step2：
 adb shell dumpsys window | grep mCurrentFocus
+adb shell dumpsys window | findstr mCurrentFocus
 ```
+
+查看app当前页面布局
+```bash
+adb shell uiautomator dump
+adb pull /sdcard/window_dump.xml
+```
+自动下载chromedriver版本
+appium --allow-insecure chromedriver_autodownload
+
+https://github.com/appium/appium/issues/17276

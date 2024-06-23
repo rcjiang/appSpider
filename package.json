@@ -6,9 +6,12 @@
     "serve": "appium",
     "avd-list": "emulator -list-avds",
     "avd": "emulator -avd Pixel_3a_API_34",
-    "build": "tsc"
+    "build": "tsc",
+    "wdio": "wdio run ./wdio.conf.ts"
   },
   "devDependencies": {
+    "@wdio/cli": "^8.39.0",
+    "ts-node": "^10.9.2",
     "webdriverio": "^8.39.0"
   }
 }
